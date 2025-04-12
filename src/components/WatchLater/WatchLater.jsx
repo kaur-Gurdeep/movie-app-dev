@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./watchLater.module.css";
+import styles from "./WatchLater.module.css";
 
 function WatchLater({ watchLater, setWatchLater }) {
   // Handle remove from watch later
