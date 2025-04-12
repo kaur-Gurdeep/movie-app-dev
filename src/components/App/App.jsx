@@ -17,7 +17,7 @@ function App() {
   const [watchLater, setWatchLater] = useState([]); 
 
   return (
-    <Router>
+    <Router basename="/movie-app-dev">
       <div className={styles.App}>
         <Header />
         <main className={styles.content}>
