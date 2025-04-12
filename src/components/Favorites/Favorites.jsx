@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./favorites.module.css";
+import styles from "./Favorites.module.css";
 
 function Favorites({ favorites, setFavorites }) {
   // Handle remove from favorites (only removes the movie)
