@@ -17,7 +17,7 @@ function App() {
   const [watchLater, setWatchLater] = useState([]); 
 
   return (
-    <Router basename="/movie-app-dev">
+    <BrowserRouter basename="/movie-app-dev">
       <div className={styles.App}>
         <Header />
         <main className={styles.content}>
@@ -31,7 +31,7 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   )
 }
 
