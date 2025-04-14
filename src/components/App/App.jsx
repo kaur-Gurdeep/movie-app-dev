@@ -2,7 +2,7 @@
 // Uses Routes → Ensures only one page is shown at a time.
 // Defines Route paths → Loads different components based on the URL.
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import styles from './App.module.css';

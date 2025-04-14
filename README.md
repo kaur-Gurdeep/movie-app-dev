@@ -44,7 +44,7 @@ This project includes a development environment with hot reload capabilities usi
 2. Update your local repository
 
    ```bash
-   git remote set-url origin https://github.com/USERNAME/nft_dev.git
+   git remote set-url origin https://github.com/kaur-Gurdeep/movie-app-dev.git
    ```
 
 3. Update the placeholders
