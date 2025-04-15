@@ -4,12 +4,10 @@ import react from '@vitejs/plugin-react';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-
+  base: '/movie-app-dev/',
   css: {
     devSourcemap: true,
   },
-
-  base: '/movie-app-dev/',
 
   server: {
     host: '0.0.0.0',
